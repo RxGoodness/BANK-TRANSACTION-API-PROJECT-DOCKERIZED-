@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node dist/app.js",
     "build": "yarn tsc",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

@@ -16,6 +16,4 @@ router.post('/transfer', validate(transaction), transfer);
 // router.put('/:id', updateUserData);
 // router.delete('/:id', deleteUser);
 
-
-
 export default router;
