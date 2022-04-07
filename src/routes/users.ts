@@ -9,9 +9,9 @@ const router = express.Router();
 /* GET users listing. */
 console.log('USER.TS, WE ARE HEREEEEEEEEEEEE')
 
-router.get('/:accountNo', getUserAccount);
-router.get('/', getAllAccounts);
-router.post('/create', validate(balance), createAccount);
+router.get('/balance/:accountNo', getUserAccount);
+router.get('/balance', getAllAccounts);
+router.post('/create-account', validate(balance), createAccount);
 router.post('/transfer', validate(transaction), transfer);
 // router.put('/:id', updateUserData);
 // router.delete('/:id', deleteUser);
